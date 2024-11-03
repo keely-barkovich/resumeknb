@@ -1,0 +1,71 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+/* Background Colors */
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: teal !important;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: lightgray !important;
+}
+
+/* Header Section */
+header {
+    height: 15%;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+/* Contact Section */
+#contact {
+    margin-top: 0;
+}
+
+#contact a {
+    color: teal;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: cadetblue;
+}
+
+#contact a:visited {
+    color: darkblue;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 24px;
+    color: teal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+/* Paragraph Styling */
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* Image Layout */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
